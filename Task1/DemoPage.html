@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+    <title>Text Formatter</title>
+    <script type="text/javascript" src="FormatStringArrayMethods.js"></script>
+    <script type="text/javascript" src="FormatStringMethods.js"></script>
+    <script type="text/javascript" src="HelpingFunctions.js"></script>
+    <script type="text/javascript" src="TextFormatterStringArray.js"></script>
+    <script type="text/javascript" src="TextFormatterString.js"></script>
+</head>
+    <body>
+        Максимальный размер строки:
+        <input id="MaxStringSize" type="number" />
+        <p></p>
+
+        Максимальное количество строк:
+        <input id="MaxLinesAmount" type="number" />
+        <p></p>
+
+        Тип форматирования:
+        <select id="FormattingType">
+            <option>Перенос по слову</option>
+            <option>Перенос по символу</option>
+            <option>Перенос по предложению</option>
+            <option>Переносов нет</option>
+        </select>
+        <p></p>
+
+        <p>Начальный текст:</p>
+        <textarea id="Revision" cols="150" rows="10"></textarea>
+
+        <p>Форматированный текст из строк:</p>
+        <textarea id="FormattedTextString" cols="150" rows="10"></textarea>
+
+        <p>Массив строк:</p>
+        <textarea id="FormattedTextArray" cols="150" rows="10"></textarea>
+        <p></p>
+        <button  onclick="getDataFromTextareas()" style="float:left;">Форматировать</button>
+
+        
+        
+    </body>
+
+</html>

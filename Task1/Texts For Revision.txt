@@ -1,0 +1,24 @@
+Blablacar is going up against Munich-based Carpooling.com which claims to move over 1 million people each month in 5,000 cities and 45 countries across Europe. Carpooling is backed by Earlybird Venture Capital. Carpooling says it has 3.6m registered users (registration is optional) and aims to move into the US this year.
+
+Nicolas Brusson, Co-founder of BlablaCar, says PostoinAuto were “an ideal fit, in terms of culture, attitude and vision and we are looking forward to work together to create a truly European leader in this space. We expect to reach our second billion miles shared within the year.”
+
+Nicolas Brusson, Co-founder. of BlablaCar, says. PostoinAuto were. “an ideal fit, in terms. of culture, attitude and vision and we are looking forward to work together to create a truly European leader in this space. We expect to reach our second billion miles shared within the year.”
+
+Blablacar is going up against Munich-based
+Carpooling.com which claims to move over 1 million people each month in 5,000 cities and
+45 countries across Europe. Carpooling is backed by Earlybird Venture Capital. Carpooling 
+says it has 3.6m registered users (registration is optional) and aims to move into the US this year.
+
+
+
+
+var GetSomeData = function () {
+    var data = {
+        inputText: document.getElementById('Revision').value,
+        maxLineSize: (+document.getElementById('MaxStringSize').value)--,
+        maxLinesCount: +document.getElementById('MaxLinesAmount').value,
+        formattingType: document.getElementById("FormattingType").selectedIndex
+    }
+
+    return data;
+}
